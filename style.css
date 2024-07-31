@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 700px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 935px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+form{
+    background: rgb(243, 209, 228);
+    
+}
+.form{
+
+
+}
+form .form .container .row{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background: rgba(199, 185, 250, 0.728);
+
+
+}
+
+form .form .container{
+    display: grid;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+}
+
+form .form .container h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    background: rgb(221, 221, 221);
+    margin-bottom: 10px;
+    color: blueviolet;
+
+}
+form .form .container .row .col input{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 20px; 
+    max-width: 100%;
+    margin-top: 10px;
+}
+form .form .container .row .col select{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px; 
+    margin-top: 10px;
+}
+form .form .container .row .col label{
+    font-weight: bold;
+
+
+}
+form .form .container button{
+    width: 10%;
+    height: 5vh;
+    background: green;
+    color: white;
+    border: none;
+}
+form .form .container .form1{
+    text-align: center;
+    margin-top: 30px;
+
+}
+form .form .container .form1 table{
+    gap: 30px;
+    text-align: center;
+    border-top: 2px solid rgb(199, 199, 199);
+    border-bottom: 2px solid rgb(209, 209, 209);
+    border-left: 2px solid rgb(209, 209, 209);
+    border-right: 2px solid rgb(209, 209, 209);
+    font-size: 20px;
+    margin-bottom: 30px;
+ 
+
+}
+form .form .container .form1 table tr{
+    text-align: left;
+}
+form .form .container .form1 table tr th{
+    border-bottom: 1px solid grey;
+}
+form .form .container .form1 table tr td{
+    text-decoration: none;
+    border-bottom: 1px solid grey;
+}
